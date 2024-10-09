@@ -43,6 +43,7 @@ int main()
         return FILE_ERROR;
     }
     ispisiStudente(studenti, brojStudenata);
+    free(studenti);
 
     return 0;
 }
